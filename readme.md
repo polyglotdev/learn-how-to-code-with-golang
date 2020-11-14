@@ -23,5 +23,7 @@ just like the old school way of setting up a go project where we have to be at `
 - `go run`: is `go build` and `go run` which builds and executes the code in the project
 
 
+**Go Modules**
+This is the default behavior as version 1.13 of Golang
 
 ## Section 4
