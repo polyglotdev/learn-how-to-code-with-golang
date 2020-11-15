@@ -26,4 +26,5 @@ just like the old school way of setting up a go project where we have to be at `
 **Go Modules**
 This is the default behavior as version 1.13 of Golang
 
+**Go Packages**: think of this as a way to organize code like we do on computer where we have directories an files
 ## Section 4
