@@ -4,19 +4,15 @@ import (
 	"fmt"
 )
 
-func main() {
-	fmt.Println("Learn how to code with golang!")
-	numberOfBytesWritten, _ := fmt.Println(0, 0, true)
-	fmt.Println(numberOfBytesWritten)
+var z int
 
-	// x is using the short declaration operator here and this declares AND assigns a value.
+func main() {
 	x := 42
 	fmt.Println(x)
 
-	y := 100 + 42
+	name := "Elijah X. Hallan"
+	fmt.Println(name)
 
-	fmt.Println(y)
-
-	z := "Dom, Hallan - November 14, 2021"
+	z = 4283094802344672389
 	fmt.Println(z)
 }
