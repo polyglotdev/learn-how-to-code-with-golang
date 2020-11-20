@@ -7,4 +7,5 @@ func main() {
 	Bool()
 	Int()
 	Numerics()
+	Strings()
 }

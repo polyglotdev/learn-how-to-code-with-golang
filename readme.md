@@ -54,3 +54,15 @@ One of the first computers played a pivotal role in a world war II. The computer
 
 ## Numeric Types
 Unsigned integer are always positive numbers. While signed integers are either negative or positive.
+
+## String Types
+A string type represents the set of string values. A string value is a sequence of bytes. the number of bytes is called the length of the string and is never negative. Strings are **immutable**: once created aint no going back to change it. The predeclared string type is a `string`; it is a defined type.
+
+[UTF 8](https://en.wikipedia.org/wiki/UTF-8#:~:text=UTF%2D8%20is%20a%20variable,Transformation%20Format%20%E2%80%93%208%2Dbit.) wikipedia article.
+
+| Symbol |                                         Description                                         |
+| ------ | :-----------------------------------------------------------------------------------------: |
+| `%v	`  | the value in a default format when printing structs, the plus flag (`%+v`) adds field names |
+| `%#v	` |                           a Go-syntax representation of the value                           |
+| `%T	`  |                  a Go-syntax representation of the data type of the value                   |
+| `%%	`  |                                    literal percent sign                                     |

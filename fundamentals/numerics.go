@@ -1,6 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"runtime"
+)
 
 var xx int16
 var yy uint32
@@ -15,4 +18,6 @@ func Numerics() {
 
 	yy = 42929672
 	fmt.Printf("%T\n", yy)
+	fmt.Println(runtime.GOOS)
+	fmt.Println(runtime.GOARCH)
 }
