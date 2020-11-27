@@ -3,10 +3,20 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Functions")
-	Add(10, 10)
+	foo()
+	bar("Ezra")
+	s1 := woo("Hallan")
+	fmt.Println(s1)
 }
 
-func Add(a, c int) {
-	fmt.Println(a + c)
+func foo() {
+	fmt.Println("hello from foo")
+}
+
+func bar(s string) {
+	fmt.Println("Hello,", s)
+}
+
+func woo(st string) string {
+	return fmt.Sprint("Hello from woo,", st)
 }
