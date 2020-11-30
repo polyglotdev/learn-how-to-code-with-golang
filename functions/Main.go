@@ -11,6 +11,12 @@ func main() {
 	fmt.Println(x)
 	fmt.Println(y)
 	execute(2, 3, 4, 5, 6, 7, 8)
+
+	ii := []int{2, 3, 4, 5, 6, 7, 8, 9}
+	execute(ii...)
+
+	defer numberOne()
+	numberTwo()
 }
 
 func foo() {
@@ -38,4 +44,12 @@ func execute(x ...int) {
 		sum += v
 		fmt.Println(sum)
 	}
+}
+
+func numberOne() {
+	fmt.Println("1")
+}
+
+func numberTwo() {
+	fmt.Println("2")
 }
