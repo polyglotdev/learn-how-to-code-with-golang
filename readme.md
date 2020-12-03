@@ -66,3 +66,12 @@ A string type represents the set of string values. A string value is a sequence 
 | `%#v	` |                           a Go-syntax representation of the value                           |
 | `%T	`  |                  a Go-syntax representation of the data type of the value                   |
 | `%%	`  |                                    literal percent sign                                     |
+
+## Pointers
+`&` gives the address in memory
+
+`*` gives the value stored at an address when you have an address
+
+`*&` dereferences the value in memory
+
+Remember that go is passed by value!
